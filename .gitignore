@@ -1,0 +1,17 @@
+# Python specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django specific files
+db.sqlite3
+media/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# VS Code files
+.vscode/
